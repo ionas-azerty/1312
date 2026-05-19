@@ -1,5 +1,5 @@
 #include "BehaviorDetection.h"
-#include "../../../shared/utils/StringUtils.h"
+#include "shared/utils/StringUtils.h"
 
 std::vector<DetectionResult> BehaviorDetection::detect(const ProcessInfo& process) {
     std::vector<DetectionResult> results;

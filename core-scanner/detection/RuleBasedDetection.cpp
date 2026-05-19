@@ -1,5 +1,5 @@
 #include "RuleBasedDetection.h"
-#include "../../../shared/utils/StringUtils.h"
+#include "shared/utils/StringUtils.h"
 
 std::vector<DetectionResult> RuleBasedDetection::detect(const ProcessInfo& process) {
     std::vector<DetectionResult> results;

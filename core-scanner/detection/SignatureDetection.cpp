@@ -1,6 +1,6 @@
 #include "SignatureDetection.h"
-#include "../../../shared/utils/CryptoUtils.h"
-#include "../../../shared/utils/StringUtils.h"
+#include "shared/utils/CryptoUtils.h"
+#include "shared/utils/StringUtils.h"
 
 std::vector<DetectionResult> SignatureDetection::detect(const ProcessInfo& process) {
     std::vector<DetectionResult> results;

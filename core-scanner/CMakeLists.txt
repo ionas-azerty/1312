@@ -9,7 +9,7 @@ add_library(vortex-scanner STATIC
     scanner/ScreenshotProtection.cpp
     scanner/SystemProtection.cpp
 )
-target_include_directories(vortex-scanner PUBLIC ${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_SOURCE_DIR}/shared)
+target_include_directories(vortex-scanner PUBLIC ${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_SOURCE_DIR} ${CMAKE_SOURCE_DIR}/shared)
 if (WIN32)
     target_compile_definitions(vortex-scanner PRIVATE PLATFORM_WINDOWS)
 endif()

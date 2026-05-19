@@ -1,6 +1,6 @@
 #pragma once
 #include <vector>
-#include "../../../shared/types/AppConfig.h"
+#include "shared/types/AppConfig.h"
 #include "../detection/IDetectionEngine.h"
 
 class ScreenshotProtection {

@@ -1,5 +1,5 @@
 #include "SystemProtection.h"
-#include "../../../shared/utils/WinApiHelpers.h"
+#include "shared/utils/WinApiHelpers.h"
 
 SystemProtection::SystemProtection(const AppConfig& config) : config_(config) {}
 

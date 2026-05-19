@@ -1,0 +1,20 @@
+# Build files
+/build/
+/bin/
+/CMakeFiles/
+/CMakeCache.txt
+/*.cmake
+/vortex-backend
+
+# Node modules
+/client-ui/node_modules/
+/cloud-api/node_modules/
+
+# Logs
+/logs/*.log
+
+# Editor files
+*.swp
+*.swo
+.DS_Store
+.vscode/

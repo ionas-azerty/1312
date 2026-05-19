@@ -1,8 +1,8 @@
 #pragma once
 #include <vector>
 #include <memory>
-#include "../../../shared/types/AppConfig.h"
-#include "../../../shared/types/ProcessInfo.h"
+#include "shared/types/AppConfig.h"
+#include "shared/types/ProcessInfo.h"
 #include "../detection/IDetectionEngine.h"
 
 class ProcessScanner {

@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 #include <vector>
-#include "../../../shared/types/ProcessInfo.h"
+#include "shared/types/ProcessInfo.h"
 
 struct DetectionResult {
     int processId;

@@ -1,0 +1,5 @@
+{
+  "port": 4000,
+  "backendPath": "../build/bin/vortex-backend",
+  "allowedOrigins": ["http://127.0.0.1:5173"]
+}

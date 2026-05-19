@@ -1,5 +1,5 @@
 #include "MemoryModuleMonitor.h"
-#include "../../../shared/utils/WinApiHelpers.h"
+#include "shared/utils/WinApiHelpers.h"
 #include <vector>
 
 MemoryModuleMonitor::MemoryModuleMonitor(const AppConfig& config) : config_(config) {}

@@ -3,6 +3,27 @@
 #include <sstream>
 
 namespace FileUtils {
+    bool exists(const std::string& path) {
+        std::ifstream file(path);
+        return file.good();
+    }
+
+    bool readText(const std::string& path, std::string& output) {
+        std::ifstream file(path);
+        if (!file.is_open()) return false;
+        std::ostringstream buffer;
+        buffer << file.rdbuf();
+        output = buffer.str();
+        return true;
+    }
+
+    bool writeText(const std::string& path, const std::string& content) {
+        std::ofstream file(path);
+        if (!file.is_open()) return false;
+        file << content;
+        return true;
+    }
+
     bool readJson(const std::string& path, AppConfig& config) {
         std::string payload;
         if (!readText(path, payload)) return false;

@@ -1,5 +1,5 @@
 #include "ScreenshotProtection.h"
-#include "../../../shared/utils/WinApiHelpers.h"
+#include "shared/utils/WinApiHelpers.h"
 #include <vector>
 #if defined(_WIN32) || defined(WIN32)
 #include <windows.h>

@@ -1,5 +1,5 @@
 #include "HeuristicDetection.h"
-#include "../../../shared/utils/StringUtils.h"
+#include "shared/utils/StringUtils.h"
 
 std::vector<DetectionResult> HeuristicDetection::detect(const ProcessInfo& process) {
     std::vector<DetectionResult> results;
