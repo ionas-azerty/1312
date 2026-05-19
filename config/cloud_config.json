@@ -1,0 +1,6 @@
+{
+  "updateEndpoint": "https://api.vortex.local/update",
+  "signatureEndpoint": "https://api.vortex.local/signatures",
+  "uploadLogsEndpoint": "https://api.vortex.local/logs",
+  "syncIntervalMinutes": 30
+}

@@ -1,0 +1,22 @@
+{
+  "processNames": [
+    "cheatengine.exe",
+    "x64dbg.exe",
+    "processhacker.exe",
+    "ollydbg.exe",
+    "idag.exe",
+    "injector.exe",
+    "megaheg.exe"
+  ],
+  "windowClasses": [
+    "OBSWindowClass",
+    "DiscordOverlayWindow",
+    "CEFBrowserWindow",
+    "DXUTDialogClass"
+  ],
+  "moduleSignatures": [
+    "cheatengine.dll",
+    "discord_overlay.dll",
+    "gameoverlayrenderer.dll"
+  ]
+}

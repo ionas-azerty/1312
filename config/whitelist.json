@@ -1,0 +1,8 @@
+{
+  "whitelist": [
+    "explorer.exe",
+    "taskmgr.exe",
+    "vortex-backend.exe",
+    "vortex-ui.exe"
+  ]
+}

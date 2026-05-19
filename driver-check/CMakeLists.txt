@@ -1,0 +1,5 @@
+add_library(vortex-driver-check STATIC DriverChecker.cpp)
+target_include_directories(vortex-driver-check PUBLIC ${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_SOURCE_DIR}/shared)
+if (WIN32)
+    target_compile_definitions(vortex-driver-check PRIVATE PLATFORM_WINDOWS)
+endif()
